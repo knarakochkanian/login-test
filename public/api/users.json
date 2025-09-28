@@ -1,0 +1,28 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "email": "admin@company.com",
+      "name": "Admin User",
+      "requires2FA": true
+    },
+    {
+      "id": "2",
+      "email": "user@company.com",
+      "name": "Regular User",
+      "requires2FA": false
+    },
+    {
+      "id": "3",
+      "email": "blocked@company.com",
+      "name": "Blocked User",
+      "requires2FA": false
+    },
+    {
+      "id": "4",
+      "email": "expired@company.com",
+      "name": "Expired User",
+      "requires2FA": false
+    }
+  ]
+}
